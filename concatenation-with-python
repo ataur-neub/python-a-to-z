@@ -1,0 +1,6 @@
+#concatenation by python
+firstName="ataur "
+secondName="Rahman"
+number=130102010008
+concatenation=firstName + secondName +" "+ str(number) #here number is converted into string by str()
+print(concatenation)

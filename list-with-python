@@ -1,0 +1,21 @@
+problemList=[1,"procrastination","time management"]
+print(problemList[0])
+print(problemList[1])
+problemList.append("solution")#add solution in last index by append() method
+print(problemList)
+l2=list()
+print(l2)#here list size 0
+l2.append("concentration")
+l2.append("growth mindset")
+l2.append("think and grow rich")
+l2.append("boom")
+print(l2)
+sortedList=l2.sort()#sorting elements alphabatically
+print(l2)
+
+#numbers sorting
+
+numbers=[22,11,222,33,345,12]
+sorted_list=sorted(numbers)
+print(numbers)
+print(sorted_list)
